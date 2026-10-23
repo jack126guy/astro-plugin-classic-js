@@ -20,11 +20,7 @@
 			"types": "./client.d.ts"
 		}
 	},
-	"keywords": [
-		"astro-plugin",
-		"astro",
-		"withastro"
-	],
+	"keywords": ["astro-plugin", "astro", "withastro"],
 	"scripts": {
 		"prepare": "tsc",
 		"check": "tsc --noEmit",
