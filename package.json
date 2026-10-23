@@ -1,0 +1,51 @@
+{
+	"name": "@halfgray/astro-plugin-classic-js",
+	"version": "0.1.0",
+	"type": "module",
+	"author": "Half-Gray <contact@halfgray.xyz>",
+	"license": "MIT",
+	"files": [
+		"dist",
+		"client.d.ts",
+		"README.md",
+		"CHANGELOG.md",
+		"LICENSE.txt"
+	],
+	"exports": {
+		".": {
+			"import": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		},
+		"./client": {
+			"types": "./client.d.ts"
+		}
+	},
+	"keywords": [
+		"astro-plugin",
+		"astro",
+		"withastro"
+	],
+	"scripts": {
+		"prepare": "tsc",
+		"check": "tsc --noEmit",
+		"format": "prettier --write ."
+	},
+	"peerDependencies": {
+		"astro": "^6 || ^7",
+		"esbuild": "*"
+	},
+	"devDependencies": {
+		"@types/node": "^24.19.2",
+		"astro": "^7.4.2",
+		"prettier": "^3.9.10",
+		"typescript": "^7.0.2"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jack126guy/astro-plugin-classic-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jack126guy/astro-plugin-classic-js/issues"
+	},
+	"homepage": "https://github.com/jack126guy/astro-plugin-classic-js#readme"
+}
