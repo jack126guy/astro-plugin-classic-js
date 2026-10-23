@@ -1,6 +1,6 @@
 {
 	"name": "@halfgray/astro-plugin-classic-js",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"type": "module",
 	"author": "Half-Gray <contact@halfgray.xyz>",
 	"license": "MIT",
